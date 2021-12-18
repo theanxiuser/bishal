@@ -4,17 +4,25 @@ body{
     /* background-color: rgb(0, 255, 136); */
     background-image: url("/img/background-1462755.jpg");
     background-size: cover;
+    /* color: white; */
 }
+
+/************* HOME *****************************/
 
 .main_container{
     width: 85vw;
     height: auto;
-    margin: 20px auto auto auto;
-    min-height: 1vh; 
+    margin: 20px auto;
+    min-height: 100vh; 
     padding: 20px;
     background-image: url("/img/earth-3866609.jpg");
-    background-size: cover;
+    /* background-size: cover; */
+    /* background-position-y: center; */
+    background-repeat: repeat;
     border-radius: 10px;
+}
+header{
+    min-height: 100vh;
 }
 .nav{
     text-align: center;
@@ -45,7 +53,7 @@ nav > ul > li >a:hover{
     background-color: rgba(8, 2, 8, 0.733);
     margin:auto;
     color: white;
-    margin: 20px auto;
+    margin: 111px auto;
     padding: 15px;
     border: chartreuse 1px solid;
     border-radius: 20px;
@@ -79,7 +87,128 @@ nav > ul > li >a:hover{
 .fa:hover {
     font-size: 21px;
   }
-  
+
+  main h2{
+      /* background-color: rgba(33, 201, 108, 0.459); */
+      color: rgb(255, 38, 0);
+      font-family: georgia Courier, monospace, 'Times New Roman', Times, serif;
+      text-transform: uppercase;
+      /* margin: 25px; */
+      /* text-decoration: dotted ; */
+      /* text-align: center; */
+  }
+
+  #projects, #skills, .contact_me, .about_me {
+      min-height: 100vh;
+      padding: 30px;
+  }
+
+  /********************** PROJECTS ******************************/
+
+  .projects{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      /* background-color: green; */
+      justify-content: center;
+      /* align-items: center; */
+  }
+  .p_box{
+      /* height: 200px; */
+      width: 300px;
+      /* border: white 2px solid; */
+      margin: 20px;
+      padding: 5px;
+      border-radius: 7px;
+  }
+  .p_box >img{
+      height: 200px;
+      /* width: 300px; */
+      overflow: hidden;
+  }
+  .p_box > img:hover{
+      height:210px;
+      width: 310px;
+  }
+
+  /*********************** SKILLS ********************************/
+
+  .skills{
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+    margin: auto;
+  }
+  .s_box{
+      height: 100px;
+      width: 100px;
+      /* border: gold 1px solid; */
+      margin: 20px;
+      padding: 10px;
+      flex: 20%;
+      text-align: center;
+  }
+  .s_box > img {
+      height: 100px;
+  }
+
+  .s_box > img:hover{
+    height: 110px;
+}
+
+  /*********************** ABOUT ME *******************************/
+
+.about>p{
+    width: 90%;
+    margin: 20px;
+    font-size: 17px;
+    color: white;
+    font-family: Georgia, monospace;
+    text-align: center;
+}
+.about > .hello{
+    font-size: 21px;
+}
+.about{
+    margin: 130px 0px;
+}
+
+  /*********************** CONTACT ********************************/
+.contact{
+    /* text-align: center; */
+    margin: 10px;
+    padding: 10px;
+    /* justify-content: center; */
+    color: greenyellow;
+}
+  input[type=text], input[type=email], textarea {
+      /* margin: auto; */
+      background-color: rgba(223, 94, 94, 0.616);
+      width: 100%;
+      font-size: 16px;
+      padding: 10px;
+      border: 1px solid rgb(45, 207, 13);
+      border-radius: 5px;
+      box-sizing: border-box;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      resize: vertical;
+  }
+  input[type=submit]{
+      background-color: rgb(177, 8, 255);
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+  }
+  input[type=submit]:hover{
+      background-color: red;
+      font-weight: bold;
+  }
+
+  /******************************** FOOTER ***********************/
 
 .footer{
     height:75px;

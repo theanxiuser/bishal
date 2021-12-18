@@ -12,20 +12,18 @@
 <body>
     <div class="main_container">
 
-        <header>
+        <header id="home">
             <div class="nav">
                 <nav>
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Skills</a></li>
-                        <li><a href="#">Projects</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#about_me">About</a></li>
+                        <li><a href="#contact_me">Contact</a></li>
                     </ul>
                 </nav>
             </div>
-        </header>
-        <main>
             <div class="home_box">
                 <div class="photo">
                     <img src="/img/1639068384657.jpg" alt="Bishal Image">
@@ -40,8 +38,103 @@
                     <a href="#" class="fa fa-instagram"></a>
                 </div>
             </div>
+        </header>
+        
+        <main>
+            <div id="projects">
+                <h2>> My Visible Projects</h2>
+                <div class="projects">
+                    <div class="p_box p1">
+                        <img src="/img/project_0.png" alt="project 0">
+                    </div>
+                    <div class="p_box p2">
+                        <img src="/img/project_1.jpg" alt="project 1">
+                    </div>
+                    <div class="p_box p3">
+                        <img src="/img/project_2.jpg" alt="project 2">
+                    </div>
+                    <div class="p_box p4">
+                        <img src="/img/project_3.jpg" alt="project 3">
+                    </div>
+                    <div class="p_box p5">
+                        <img src="/img/project_4.jpg" alt="project 4">
+                    </div>
+                    <div class="p_box p6">
+                        <img src="/img/project_5.jpg" alt="project 5">
+                    </div>
+                </div>
+            </div>
             
+            <div id="skills">
+                <h2>> Some of My Skills</h2>
+
+                <div class="skills">
+                    <div class="s_box s1">
+                        <img src="/img/html.png" alt="html">
+                    </div>
+                    <div class="s_box s2">
+                        <img src="/img/css.png" alt="css">
+                    </div>
+                    <div class="s_box s3">
+                        <img src="/img/python.png" alt="python">
+                    </div>
+                    <div class="s_box s4">
+                        <img src="/img/cpp.png" alt="cpp">
+                    </div>
+                    <div class="s_box s5">
+                        <img src="/img/git.png" alt="git">
+                    </div>
+                    <div class="s_box s6">
+                        <img src="/img/django.png" alt="django">
+                    </div>
+                    <div class="s_box s7">
+                        <img src="/img/linux.png" alt="linux">
+                    </div>
+                    <div class="s_box s8">
+                        <img src="/img/js.png" alt="js">
+                    </div>
+                    <div class="s_box s9">
+                        <img src="/img/network.png" alt="networking">
+                    </div>
+                </div>
+            </div>
+
+            <div class="about_me" id="about_me">
+                <h2>> Who am I?</h2>
+                <div class="about">
+
+                    <p class="hello">
+                        Hello World!
+                    </p>
+                    <p>
+                        I am Bishal Poudel from Nepal. Currently I am living in Kathmandu Valley and studying here. You can found my social media links here, where you can find more info about me.
+                    </p>
+                    <p class="hello">
+                        Thank You!!
+                    </p>
+                </div>
+            </div>
+
+            <div class="contact_me" id="contact_me">
+                <h2>> Leave a Message</h2>
+                <div class="contact">
+
+                    <form action="mailto:isha.stupid@gmail.com" method="post">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" placeholder="Full Name" maxlength="20" required>
+        
+                        <label for="from">Email: </label>
+                        <input type="email" itemid="from" name="email" id="" placeholder="Email Address" required>
+        
+                        <label for="message">Message:</label>
+                        <textarea name="" id="message" cols="30" rows="10" placeholder="Enter message here..."></textarea>
+        
+                        <input type="submit" value="SEND">
+                    </form>
+                </div>
+            </div>
         </main>
+
         <footer>
             <div class="footer">
                 <div>
