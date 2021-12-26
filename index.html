@@ -148,21 +148,22 @@
                 <h2>> Leave a Message</h2>
                 <div class="contact">
 
-                    <form action="mailto:isha.stupid@gmail.com" method="post">
-                        <label for="name">Name:</label>
-                        <input type="text" id="name" placeholder="Full Name" maxlength="20" required>
+                    <form name="Form" method="post">
+                        <label>Name:</label>
+                        <input type="text" name="name" placeholder="Full Name" maxlength="20" required"nam>
         
-                        <label for="from">Email: </label>
-                        <input type="email" itemid="from" name="email" id="" placeholder="Email Address" required>
+                        <label>Email: </label>
+                        <input type="email" name="sender" placeholder="Email Address" required>
         
-                        <label for="name">Subject:</label>
-                        <input type="text" id="subject" placeholder="Subject" maxlength="20" required>
+                        <label>Subject:</label>
+                        <input type="text" name="subject" placeholder="Subject" maxlength="20" required>
 
                         <label for="message">Message:</label>
-                        <textarea name="" id="message" cols="30" rows="10" placeholder="Enter message here..."></textarea>
+                        <textarea name="content" cols="30" rows="10" placeholder="Enter message here..."></textarea>
         
-                        <input type="submit" value="SEND">
+                        <input type="submit" value="SEND" onclick="sendMail">
                     </form>
+                    <script src="https://smtpjs.com/v3/smtp.js"></script>
                 </div>
             </div>
         </main>

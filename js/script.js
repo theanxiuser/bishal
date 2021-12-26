@@ -21,4 +21,26 @@ document.addEventListener("DOMContentLoaded", () => {
         );
     }
 
+    function sendMail() {
+
+        //getting values from input fields
+        var name=Form.name.value;
+        var sender=Form.sender.value;
+        var subject=Form.subject.value;
+        var content=Form.content.value;
+      
+       
+        //Sending email
+      
+        Email.send({
+            SecureToken : "08b564f9-a2b4-4347-94e8-c7351c33b652",
+            To : 'isha.stupid@gmail.com',
+            From : sender,
+            Subject : subject,
+            Body : content,
+        }).then(
+          message => alert(message)
+        );
+      
+      }
 });
