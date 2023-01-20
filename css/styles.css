@@ -1,7 +1,8 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-image: url("/img/background-1462755.jpg");
+    /* background-image: url("/img/background-1462755.jpg"); */
+    background-color: rgb(10, 10, 10);
     background-size: cover;
 }
 
@@ -13,7 +14,7 @@ body{
     margin: 20px auto;
     min-height: 100vh; 
     padding: 20px;
-    background-image: url("/img/earth-3866609.jpg");
+    /* background-image: url("/img/earth-3866609.jpg"); */
     background-repeat: repeat;
     border-radius: 10px;
 }
@@ -45,7 +46,7 @@ nav > ul > li >a:hover{
 }
 .home_box{
     width: 50vw;
-    background-color: rgba(8, 2, 8, 0.733);
+    background-color: rgba(61, 50, 50, 0.733);
     margin:auto;
     color: white;
     margin: 111px auto;
@@ -84,9 +85,9 @@ nav > ul > li >a:hover{
   }
 
   main h2{
-      color: rgb(255, 38, 0);
+      color: rgb(0, 255, 34);
       font-family: georgia Courier, monospace, 'Times New Roman', Times, serif;
-      text-transform: uppercase;
+      /* text-transform: uppercase; */
   }
 
   #projects, #skills, .contact_me, .about_me {
@@ -184,10 +185,10 @@ nav > ul > li >a:hover{
 .contact{
     margin: 10px;
     padding: 10px;
-    color: greenyellow;
+    color: rgb(255, 255, 255);
 }
   input[type=text], input[type=email], textarea {
-      background-color: rgba(223, 94, 94, 0.616);
+      background-color: rgba(37, 30, 30, 0.616);
       width: 100%;
       font-size: 16px;
       padding: 10px;
@@ -197,9 +198,10 @@ nav > ul > li >a:hover{
       margin-top: 10px;
       margin-bottom: 20px;
       resize: vertical;
+      color: white;
   }
   input[type=submit]{
-      background-color: rgb(177, 8, 255);
+      background-color: rgb(24, 8, 255);
       color: white;
       padding: 12px 20px;
       border: none;
@@ -207,7 +209,7 @@ nav > ul > li >a:hover{
       cursor: pointer;
   }
   input[type=submit]:hover{
-      background-color: red;
+      background-color: rgb(5, 85, 32);
       font-weight: bold;
   }
 
